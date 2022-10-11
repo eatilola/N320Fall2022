@@ -87,7 +87,6 @@ var grid = [
   count = 0;
   function spotClicked(event) {
     let answer = event.target.getAttribute("data-spot");
-    
   
     if (event.target.style.color == "##FF0000" || event.target.innerHTML == "0") {
       console.log("nope stop taken");
