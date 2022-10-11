@@ -108,7 +108,6 @@ var grid = [
 
     markCount = 0; 
     for(var i = 0; i < grid.length; i++) {
-        console.log(grid[i][0]);
         for(var j = 0; j < grid[i].length; j++) {
             console.log(grid[i][j]);
             console.log(event.target.style.color) // red
