@@ -87,7 +87,6 @@ var grid = [
   count = 0;
   function spotClicked(event) {
     let answer = event.target.getAttribute("data-spot");
-    const style = getComputedStyle(event);
     
   
     if (event.target.style.color == "##FF0000" || event.target.innerHTML == "0") {
@@ -112,7 +111,6 @@ var grid = [
         console.log(grid[i][0]);
         for(var j = 0; j < grid[i].length; j++) {
             console.log(grid[i][j]);
-            console.log(style);
             console.log(event.target.style.color) // red
             if (event.target.style.color == "#FFFF00" && answer == grid[i][j]) {
                 markers[markCount++] = "O";
