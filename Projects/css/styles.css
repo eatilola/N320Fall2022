@@ -1,0 +1,77 @@
+body {
+  background-color: #343685;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#background {
+  width: 330px;
+  height: 500px;
+  margin-left: 400px;
+  /* background-color: black; */
+}
+#title {
+  justify-content: center;
+  /* background-color: red; */
+  width: 330px;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+  margin-left: 222px;
+}
+
+#table {
+  width: 800px;
+  height: 800px;
+}
+.spot {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  float: left;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 0;
+}
+
+.winner-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 330px;
+  height: 50px;
+  font-size: 25px;
+  color: #fff;
+  margin-left: 222px;
+}
+
+#resetButton {
+  width: 330px;
+  height: 50px;
+  margin: 30px auto;
+  border: 3px solid #6e96ff;
+  border-radius: 40px;
+  background-color: #fff;
+  color: #6e96ff;
+  font-size: 20px;
+  display: none;
+}
+#resetButton:hover {
+  border: 3px solid #fff;
+  background-color: #6e96ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#gameovercover {
+  width: 330px;
+  height: 330px;
+  margin: -330px auto 0 auto;
+  /* background-color: red; */
+  /* border: 5px solid red; */
+  position: absolute;
+  display: none;
+}
