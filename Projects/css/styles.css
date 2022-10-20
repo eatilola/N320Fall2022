@@ -1,77 +1,73 @@
 body {
   background-color: #343685;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-#background {
-  width: 330px;
-  height: 500px;
-  margin-left: 222px;
-  /* background-color: black; */
-}
-#title {
-  justify-content: center;
-  /* background-color: red; */
-  width: 330px;
-  font-size: 40px;
   text-align: center;
-  color: white;
-  margin: 30px auto;
-  margin-left: 222px;
 }
 
-#table {
-  width: 800px;
-  height: 800px;
-}
-.spot {
-  width: 100px;
-  height: 100px;
-  background-color: white;
-  display: flex;
-  float: left;
-  margin: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  z-index: 0;
+#title {
+  color: white;
 }
 
 .winner-holder {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 330px;
-  height: 50px;
   font-size: 25px;
   color: #fff;
-  margin-left: 222px;
+
+}
+
+#board {
+  width: 630px;
+  height: 540px;
+
+  background-color: violet;
+  border: 10px solid purple;
+
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#winner{
+  font-size: 40px;
+  color: #fff;
+}
+
+.tile{
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid purple;
+  
+}
+
+.red-piece{
+  background-color: red;
+}
+
+.yellow-piece{
+  background-color: yellow;
 }
 
 #resetButton {
   width: 330px;
   height: 50px;
   margin: 30px auto;
-  border: 3px solid #6e96ff;
+  border: 3px solid purple;
   border-radius: 40px;
-  background-color: #fff;
-  color: #6e96ff;
+  background-color: violet;
+  color: white;
   font-size: 20px;
   display: none;
-}
-#resetButton:hover {
-  border: 3px solid #fff;
-  background-color: #6e96ff;
-  color: #fff;
-  cursor: pointer;
+  align-items: center;
+  padding-left: 45px;
 }
 
-#gameovercover {
-  width: 330px;
-  height: 330px;
-  margin: -330px auto 0 auto;
-  /* background-color: red; */
-  /* border: 5px solid red; */
-  position: absolute;
-  display: none;
+
+#resetButton:hover {
+  border: 3px solid purple;
+  background-color: white;
+  color: violet;
+  cursor: pointer;
 }
